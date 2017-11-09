@@ -17,7 +17,7 @@ The bitcoin threat model is intend to help
 developers, investors and users
 better understand the security of bitcoin.
 Threats are assumed to be any activity designed to
-prevent bitcoin from accomplishing it's mission
+prevent bitcoin from accomplishing its mission
 to become cash (including a unit of account).
 Under each threat is a description of the threat,
 the safety features designed to protect against the threat,
@@ -104,7 +104,7 @@ he could steal every bitcoin.
 
 ***Safety Features***
 * The private key is so large that it would take more energy
-than is produced by the sun in it's entire lifetime to power
+than is produced by the sun in its entire lifetime to power
 a computer capable of guessing it.
 
 ***Past Attacks***
@@ -196,10 +196,10 @@ https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-mi
 
 ***No Impact no Adoption***
 Although this attack has been perfomed regularly in recent months
-it's only effect
+its only effect
 has been occasional transaction delays and higher fees.
 It has not significantly slowed adoption.
-This is partially due to the fact that bitcoin is so early in it's
+This is partially due to the fact that bitcoin is so early in its
 evolution to become money that it is still in the "store of value" stage
 and partially because investors are aware that new features are on the way
 that will make this attack impractical.
@@ -722,7 +722,7 @@ the proof of work required by the current network difficulty
 making this attack expensive.
 * As soon as a node discovers that a longer block chain exists
 with valid transactions it immediately accepts this new set of transactions
-as correct and discards it's previous set of transactions.
+as correct and discards its previous set of transactions.
 * Satellite connections allow nodes to download a copy of the block chain
 even if they are using an internet connection that keeps them ignorant
 of a longer valid chain of transactions.
@@ -757,7 +757,7 @@ safety features are discarded.
 * Bitcoin client software that doesn't perform
 complete validation of the bitcoin transaction history
 often connects to another computer that it trusts to perform
-this full validation on it's behalf. While this is not ideal,
+this full validation on its behalf. While this is not ideal,
 because an attacker could pretend to be this trusted computer,
 it does provide greater security than outright skipping validation.
 * The bitcoin community encourages users to run a full node,
@@ -881,7 +881,7 @@ to extort multiple people, simultaneously, in order to steal bitcoin
 * Criminal organizations are comprized of acting individuals.
 Senior decision makers would gain greater personal benifits
 by becoming investors in bitcoin
-than attempting to prop up it's organizations competitng cash.
+than attempting to prop up its organizations competitng cash.
 
 ***No Impact to Adoption***
 While the threat to an individual investor may be high
@@ -906,9 +906,9 @@ for the last 50 years and it seems unlikely that this trend will reverse.
 
 * False story that the "bitcoin network" was hacked.
 https://www.wired.com/2014/03/bitcoin-exchange/
-* False story that bitcoin can't become cash because it's supply is limited.
+* False story that bitcoin can't become cash because its supply is limited.
 https://www.theatlantic.com/business/archive/2013/12/why-bitcoin-will-never-be-a-currency-in-2-charts/282364/
-* False stroy that bitcoin can't become cash becasue it's price is *currently* volitile.
+* False stroy that bitcoin can't become cash becasue its price is *currently* volitile.
 http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-bitcoin-2014-3
 * Head of JP Morgan says bitcoin is a fraud and can be shut down by governments.
 https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin
