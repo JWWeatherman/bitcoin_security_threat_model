@@ -108,7 +108,7 @@ than is produced by the sun in it's entire lifetime to power
 a computer capable of guessing it.
 
 ***Past Attacks***
-There have been no known attemts to perform this attack.
+There have been no known attempts to perform this attack.
 
 ***No Impact on Adoption***
 This attack is probably impossible.
@@ -146,7 +146,7 @@ and have proven to be effective and secure in many applications
 including bitcoin.
 
 ***Past Attacks***
-There have been no known attemts to perform this attack.
+There have been no known attempts to perform this attack.
 
 ***No Impact on Adoption***
 It is unlikely that a flaw will be discovered
