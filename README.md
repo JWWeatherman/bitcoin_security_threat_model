@@ -104,7 +104,7 @@ he could steal every bitcoin.
 
 ***Safety Features***
 * The private key is so large that it would take more energy
-than is produced by the sun in it's entire lifetime to power
+than is produced by the sun in its entire lifetime to power
 a computer capable of guessing it.
 
 ***Past Attacks***
@@ -195,11 +195,11 @@ https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirm
 https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/
 
 ***No Impact no Adoption***
-Although this attack has been performed regularly in recent months
-it's only effect
+Although this attack has been perfomed regularly in recent months
+its only effect
 has been occasional transaction delays and higher fees.
 It has not significantly slowed adoption.
-This is partially due to the fact that Bitcoin is so early in it's
+This is partially due to the fact that bitcoin is so early in its
 evolution to become money that it is still in the "store of value" stage
 and partially because investors are aware that new features are on the way
 that will make this attack impractical.
@@ -722,7 +722,7 @@ the proof of work required by the current network difficulty
 making this attack expensive.
 * As soon as a node discovers that a longer block chain exists
 with valid transactions it immediately accepts this new set of transactions
-as correct and discards it's previous set of transactions.
+as correct and discards its previous set of transactions.
 * Satellite connections allow nodes to download a copy of the block chain
 even if they are using an Internet connection that keeps them ignorant
 of a longer valid chain of transactions.
@@ -757,7 +757,7 @@ safety features are discarded.
 * Bitcoin client software that doesn't perform
 complete validation of the Bitcoin transaction history
 often connects to another computer that it trusts to perform
-this full validation on it's behalf. While this is not ideal,
+this full validation on its behalf. While this is not ideal,
 because an attacker could pretend to be this trusted computer,
 it does provide greater security than outright skipping validation.
 * The Bitcoin community encourages users to run a full node,
@@ -878,10 +878,10 @@ only a small amount of bitcoin because they are security experts
 and very aware of this threat.
 * Bitcoin allows multi signature addresses that would require an attacker
 to extort multiple people, simultaneously, in order to steal bitcoin
-* Criminal organizations are comprised of acting individuals.
-Senior decision makers would gain greater personal benefits
-by becoming investors in Bitcoin
-than attempting to prop up it's organizations competing cash.
+* Criminal organizations are comprized of acting individuals.
+Senior decision makers would gain greater personal benifits
+by becoming investors in bitcoin
+than attempting to prop up its organizations competitng cash.
 
 ***No Impact to Adoption***
 While the threat to an individual investor may be high
@@ -906,9 +906,10 @@ for the last 50 years and it seems unlikely that this trend will reverse.
 
 * False story that the "Bitcoin network" was hacked.
 https://www.wired.com/2014/03/bitcoin-exchange/
-* False story that Bitcoin can't become cash because it's supply is limited.
+
+* False story that bitcoin can't become cash because its supply is limited.
 https://www.theatlantic.com/business/archive/2013/12/why-bitcoin-will-never-be-a-currency-in-2-charts/282364/
-* False story that Bitcoin can't become cash because it's price is *currently* volatile.
+* False stroy that bitcoin can't become cash becasue its price is *currently* volitile.
 http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-bitcoin-2014-3
 * Head of JP Morgan says Bitcoin is a fraud and can be shut down by governments.
 https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin
