@@ -235,6 +235,7 @@ but it is likely that this data will be more broadly distributed through a leak
 or hack if it hasn't been already.
 https://www.theguardian.com/world/interactive/2013/jul/31/nsa-xkeyscore-program-full-presentation
 https://en.wikipedia.org/wiki/XKeyscore
+* BlockCypher has developed a graph network analysis system which link's activity on the bitcoin blockchain, and attempts to resolve activity back to individuals. They also run machine learning models against each bitcoin transaction to "score" it's association with gambling/drugs/etc. This system is partially detailed in the following talk given at a big data conference - https://www.youtube.com/watch?v=8ELUDY1-ee0 
 
 ***No Impact on Adoption***
 Bitcoin transactions can be tied to the senders by analyzing network traffic,
