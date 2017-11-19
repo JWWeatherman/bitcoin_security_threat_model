@@ -295,7 +295,7 @@ Solving this math problem is called "finding a block."
 Everyone running mining software is
 competing to be the first to find the next block.
 
-### an attacker could run mining software in order to prevent transactions from being confirmed.
+### An attacker could run mining software in order to prevent transactions from being confirmed.
 Because anyone is able to download and run the software
 that confirms transactions on the Bitcoin network
 it is possible for an attacker to mine blocks without including
