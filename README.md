@@ -81,12 +81,11 @@ This is a level of security that is
 far higher than is common in banking.
 
 ***Past Attacks***
-* Bitcoin owner has private keys stolen in 2011 when keeping private keys safe was much harder.
-https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423
-* Bitcoin owners give away their private keys on Sheep (that is the name of the service).
-https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-at-least-5-million-owners-blamed
-* Bitcoin owners give away their private keys on MtGox
-https://www.wired.com/2014/03/bitcoin-exchange/
+* [Bitcoin owner has private keys stolen in 2011 when keeping private keys safe was much harder.](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423)
+* [Bitcoin owners give away their private keys on Sheep (that is the name of the service).]
+(https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-at-least-5-million-owners-blamed)
+* [Bitcoin owners give away their private keys on MtGox]
+(https://www.wired.com/2014/03/bitcoin-exchange/)
 
 ***No Impact on Adoption***
 Although users need to be careful to
@@ -187,12 +186,12 @@ This ensures that clogging the network would require competing
 for space through fees.
 
 ***Past Attacks***
-* Bitcoin spam attacks in 2015-2017
-https://bravenewcoin.com/news/bitcoin-spam-attack-stressed-network-for-at-least-18-months-claims-software-developer/
-* Bitcoin investor is fearful this will prevent Bitcoin from becoming cash
-https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirmed-transactions-halts-bitcoin
-* Bitcoin spam attack is used as support for attack 2.5.3.
-https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/
+* [Bitcoin spam attacks in 2015-2017](
+https://bravenewcoin.com/news/bitcoin-spam-attack-stressed-network-for-at-least-18-months-claims-software-developer/)
+* [Bitcoin investor is fearful this will prevent Bitcoin from becoming cash](
+https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirmed-transactions-halts-bitcoin)
+* [Bitcoin spam attack is used as support for attack 2.5.3.](
+https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/)
 
 ***No Impact no Adoption***
 Although this attack has been performed regularly in recent months
@@ -226,16 +225,15 @@ However this is still a major inconvenience
 and it can still reveal the senders general location.
 
 ***Past Attacks***
-* The NSA collects and stores all Internet traffic.
+* [`1`The NSA collects and stores all Internet traffic.
 It is reasonable to assume all Bitcoin transactions are archived
-and analyzed so that they are easily readable and tied to individuals.
-Access to this data may currently be limited to the thousands of employees
+and analyzed so that they are easily readable and tied to individuals.](https://www.theguardian.com/world/interactive/2013/jul/31/nsa-xkeyscore-program-full-presentation)
+[`2`Access to this data may currently be limited to the thousands of employees
 and contractors that work for governments friendly to the US,
 but it is likely that this data will be more broadly distributed through a leak
-or hack if it hasn't been already.
-https://www.theguardian.com/world/interactive/2013/jul/31/nsa-xkeyscore-program-full-presentation
-https://en.wikipedia.org/wiki/XKeyscore
-* BlockCypher has developed a graph network analysis system which link's activity on the bitcoin blockchain, and attempts to resolve activity back to individuals. They also run machine learning models against each bitcoin transaction to "score" it's association with gambling/drugs/etc. This system is partially detailed in the following talk given at a big data conference - https://www.youtube.com/watch?v=8ELUDY1-ee0 
+or hack if it hasn't been already.](https://en.wikipedia.org/wiki/XKeyscore)
+
+* [BlockCypher has developed a graph network analysis system which link's activity on the bitcoin blockchain, and attempts to resolve activity back to individuals. They also run machine learning models against each bitcoin transaction to "score" it's association with gambling/drugs/etc. This system is partially detailed in the following talk given at a big data conference.](https://www.youtube.com/watch?v=8ELUDY1-ee0) 
 
 ***No Impact on Adoption***
 Bitcoin transactions can be tied to the senders by analyzing network traffic,
@@ -267,8 +265,8 @@ It is likely that additional safety features will be added
 to address this issue soon.
 
 ***Past Attacks***
-* Ross Ulbrict's transactions are traced by the FBI.
-https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/
+* [Ross Ulbrict's transactions are traced by the FBI.](
+https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/)
 
 ***Medium Risk***
 Bitcoin transactions can be tied to the senders by analyzing the public ledger,
@@ -333,8 +331,8 @@ blocks with the transactions
 and this would increase the cost of the attack.
 
 ***Past Attacks***
-* Miners are creating blocks without any transactions.
-https://bitcoinmagazine.com/articles/why-do-some-bitcoin-mining-pools-mine-empty-blocks-1468337739/
+* [Miners are creating blocks without any transactions.](
+https://bitcoinmagazine.com/articles/why-do-some-bitcoin-mining-pools-mine-empty-blocks-1468337739/)
 
 ***No Impact on Adoption***
 The only effect of this attack would be to increase fees
@@ -395,8 +393,8 @@ the only flaw uncovered to date
 only allowed the attacker to fake ~20% of his work.
 
 ***Past attacks***
-* Attackers discover a way to fake work.
-https://www.asicboost.com/
+* [Attackers discover a way to fake work.](
+https://www.asicboost.com/)
 
 ***No Impact on Adoption***
 Although past attacks have been successful
@@ -459,8 +457,8 @@ from the technical advantages and disadvantages
 of a given design or implementation decision.
 
 ***Past Attacks***
-* Craig Wright impersonates Satoshi in order to remove the block size limit.
-https://dankaminsky.com/2016/05/02/validating-satoshi-or-not/
+* [Craig Wright impersonates Satoshi in order to remove the block size limit.](
+https://dankaminsky.com/2016/05/02/validating-satoshi-or-not/)
 
 
 ---
@@ -495,12 +493,12 @@ will be deployed onto a side chain before those features
 are included into Bitcoin itself.
 
 ***Past Attacks***
-* Segwit 2x attempts to remove the block size limit safety feature.
-https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce
-* Bitcoin XT attempts to remove the block size limit safety feature.
-https://medium.com/faith-and-future/why-is-bitcoin-forking-d647312d22c1
-* Bitcoin Classic attempts to remove the block size limit safety feature.
-https://bitcoinclassic.com/
+* [Segwit 2x attempts to remove the block size limit safety feature.](
+https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce)
+* [Bitcoin XT attempts to remove the block size limit safety feature.](
+https://medium.com/faith-and-future/why-is-bitcoin-forking-d647312d22c1)
+* [Bitcoin Classic attempts to remove the block size limit safety feature.](
+https://bitcoinclassic.com/)
 
 ***No Impact to Adoption***
 This attack is unlikely to be successful.
@@ -540,8 +538,8 @@ This fact will eventually become clear to all investors
 making this attack ineffective over time.
 
 ***Past Attacks***
-* Bitcoin Cash attempts to remove the block size limit safety feature.
-https://web.archive.org/web/20170928124716/https://www.bitcoincash.org/
+* [Bitcoin Cash attempts to remove the block size limit safety feature.](
+https://web.archive.org/web/20170928124716/https://www.bitcoincash.org/)
 
 ***No Impact to Adoption***
 This threat is unlikely to impact adoption. The Bitcoin Cash fork
@@ -584,12 +582,12 @@ to expose the poor quality of some implementations
 before they are adopted by the unwitting.
 
 ***Past Attacks***
-* Bitcoin Unlimited contained security flaws that would have been caught in code review.
-https://bitcoinmagazine.com/articles/security-researcher-found-bug-knocked-out-bitcoin-unlimited/
-* Bitcoin ABC contained security flaw that would have been caught in code review.
-https://reviews.bitcoinabc.org/rABCb7d5bda29c07cd80c900e3ddd6a9a37a2b23f347
-* Bitcoin XT contained a security flaw that could have been cough in code review.
-https://www.reddit.com/r/bitcoinxt/comments/43lty6/current_bitcoin_xt_contains_a_network_splitting/
+* [Bitcoin Unlimited contained security flaws that would have been caught in code review.](
+https://bitcoinmagazine.com/articles/security-researcher-found-bug-knocked-out-bitcoin-unlimited/)
+* [Bitcoin ABC contained security flaw that would have been caught in code review.](
+https://reviews.bitcoinabc.org/rABCb7d5bda29c07cd80c900e3ddd6a9a37a2b23f347)
+* [Bitcoin XT contained a security flaw that could have been cough in code review.](
+https://www.reddit.com/r/bitcoinxt/comments/43lty6/current_bitcoin_xt_contains_a_network_splitting/)
 
 ---
 
@@ -635,14 +633,14 @@ The net effect of this attack is to
 educate people of the value of Bitcoin.
 
 ***Past Attacks***
-* Ethereum has no maximum limit of Ether and no built in difficulty adjustment.
-https://github.com/ethereum/wiki/wiki/White-Paper
-* Ripple does not use proof of work and requires trusted "validators."
-https://ripple.com/consensus-whitepaper/
-* Bitcoin cash removed the block size safety feature
-https://www.bitcoincash.org/
-* Litecoin removed the cutting edge chip design safety feature.
-https://litecoin.info/
+* [Ethereum has no maximum limit of Ether and no built in difficulty adjustment.](
+https://github.com/ethereum/wiki/wiki/White-Paper)
+* [Ripple does not use proof of work and requires trusted "validators."](
+https://ripple.com/consensus-whitepaper/)
+* [Bitcoin cash removed the block size safety feature](
+https://www.bitcoincash.org/)
+* [Litecoin removed the cutting edge chip design safety feature.](
+https://litecoin.info/)
 
 ***No Impact on Adoption***
 Although the market cap falsely indicates otherwise,
@@ -695,8 +693,8 @@ As a result blocks mined without the safety feature
 will simply be ignored by the Bitcoin network.
 
 ***Past Attacks***
-* Segwit 2x
-https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce
+* [Segwit 2x](
+https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce)
 
 ***No Impact on Adoption***
 This attack is not effective,
@@ -786,8 +784,8 @@ not behaving according to their wishes
 they would remove the security flaw.
 
 ***Past Attacks***
-* Bitmain, the most popular mining hardware manufacturer, includes a backdoor.
-http://www.antbleed.com/
+* [Bitmain, the most popular mining hardware manufacturer, includes a backdoor.](
+http://www.antbleed.com/)
 
 ***No Impact to Adoption***
 Even if successful this attack would probably have no effect on the Bitcoin network.
@@ -905,14 +903,14 @@ for the last 50 years and it seems unlikely that this trend will reverse.
 
 ***Past Attacks***
 
-* False story that the "Bitcoin network" was hacked.
-https://www.wired.com/2014/03/bitcoin-exchange/
-* False story that Bitcoin can't become cash because its supply is limited.
-https://www.theatlantic.com/business/archive/2013/12/why-bitcoin-will-never-be-a-currency-in-2-charts/282364/
-* False story that Bitcoin can't become cash because its price is *currently* volatile.
-http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-bitcoin-2014-3
-* Head of JP Morgan says Bitcoin is a fraud and can be shut down by governments.
-https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin
+* [False story that the "Bitcoin network" was hacked.](
+https://www.wired.com/2014/03/bitcoin-exchange/)
+* [False story that Bitcoin can't become cash because its supply is limited.](
+https://www.theatlantic.com/business/archive/2013/12/why-bitcoin-will-never-be-a-currency-in-2-charts/282364/)
+* [False story that Bitcoin can't become cash because its price is *currently* volatile.](
+http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-bitcoin-2014-3)
+* [Head of JP Morgan says Bitcoin is a fraud and can be shut down by governments.](
+https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin)
 
 ***No Impact to Adoption***
 In spite of the fact that
@@ -972,8 +970,8 @@ will ban all Bitcoin transactions merely caused
 transactions to move to decentralized exchanges.
 
 ***Past Attacks***
-* China ban's Bitcoin exchanges.
-https://www.theverge.com/2017/9/18/16326078/chinese-regulators-ban-cryptocurrency-platforms-bitcoin
+* [China ban's Bitcoin exchanges.](
+https://www.theverge.com/2017/9/18/16326078/chinese-regulators-ban-cryptocurrency-platforms-bitcoin)
 
 ---
 
@@ -1011,8 +1009,8 @@ Although it is unlikely this attack could prevent Bitcoin from
 becoming cash it could possibly slow adoption.
 
 ***Past Attacks***
-* US Government requires capital gain tax calculation on every $1 cup of coffee transaction.
-https://www.thebalance.com/how-bitcoins-are-taxed-3192871
+* [US Government requires capital gain tax calculation on every $1 cup of coffee transaction.](
+https://www.thebalance.com/how-bitcoins-are-taxed-3192871)
 
 ---
 
@@ -1052,10 +1050,10 @@ would likely end up funding improvements through "reverse-corruption."
 * There are a large and growing number of Bitcoin developers.
 
 ***Past Attacks***
-* Satoshi stopped contributing to Bitcoin out of fear of harm.
-https://bitcointalk.org/index.php?topic=1813452.0
-* Tim May left the cypherpunk mailing out of fear of the US Government after 9/11.
-https://www.youtube.com/watch?v=TdmpAy1hI8g&t=2654s (42:30)
+* [Satoshi stopped contributing to Bitcoin out of fear of harm.](
+https://bitcointalk.org/index.php?topic=1813452.0)
+* [Tim May left the cypherpunk mailing out of fear of the US Government after 9/11.](
+https://www.youtube.com/watch?v=TdmpAy1hI8g&t=2654s) (42:30)
 
 ***No Impact to Adoption***
 Given the roots of the Bitcoin development community it is unlikely that this attack would be successful.
@@ -1084,10 +1082,10 @@ the more unlikely it is that a flaw will remain undiscovered until it is impleme
 credibility will be destroyed.
 
 ***Past Attacks***
-* Mike Hearn attempts to remove block limit safety feature
-https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7
-* Gavin Andresen attempts to remove block limit safety feature
-https://www.coingecko.com/buzz/gavin-andresen-unlimited-block-size-fine
+* [Mike Hearn attempts to remove block limit safety feature](
+https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7)
+* [Gavin Andresen attempts to remove block limit safety feature](
+https://www.coingecko.com/buzz/gavin-andresen-unlimited-block-size-fine)
 
 ***No Impact to Adoption***
 Although it appears this attack has been attempted
