@@ -82,10 +82,8 @@ far higher than is common in banking.
 
 ***Past Attacks***
 * [Bitcoin owner has private keys stolen in 2011 when keeping private keys safe was much harder.](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423)
-* [Bitcoin owners give away their private keys on Sheep (that is the name of the service).]
-(https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-at-least-5-million-owners-blamed)
-* [Bitcoin owners give away their private keys on MtGox]
-(https://www.wired.com/2014/03/bitcoin-exchange/)
+* [Bitcoin owners give away their private keys on Sheep (that is the name of the service](https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-at-least-5-million-owners-blamed)
+* [Bitcoin owners give away their private keys on MtGox](https://www.wired.com/2014/03/bitcoin-exchange/)
 
 ***No Impact on Adoption***
 Although users need to be careful to
