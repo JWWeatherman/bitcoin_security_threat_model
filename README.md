@@ -223,10 +223,10 @@ However this is still a major inconvenience
 and it can still reveal the senders general location.
 
 ***Past Attacks***
-* [`1`The NSA collects and stores all Internet traffic.
+* [The NSA collects and stores all Internet traffic.
 It is reasonable to assume all Bitcoin transactions are archived
 and analyzed so that they are easily readable and tied to individuals.](https://www.theguardian.com/world/interactive/2013/jul/31/nsa-xkeyscore-program-full-presentation)
-[`2`Access to this data may currently be limited to the thousands of employees
+[Access to this data may currently be limited to the thousands of employees
 and contractors that work for governments friendly to the US,
 but it is likely that this data will be more broadly distributed through a leak
 or hack if it hasn't been already.](https://en.wikipedia.org/wiki/XKeyscore)
