@@ -1,4 +1,4 @@
-![alt text](http://res.cloudinary.com/doohickey/image/upload/v1510254013/bc-background-p-800_rcvu42.png "Bitcoin code vortex")
+![alt text](http://res.cloudinary.com/loristeeth/image/upload/c_scale,w_800/v1510175135/tm_big_logo_wxtnbt.png "Bitcoin code vortex")
 # Bitcoin Threat Model
 ### A security review of the Bitcoin cryptocurrency
 
