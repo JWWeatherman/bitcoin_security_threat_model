@@ -56,8 +56,6 @@ using the owners private key.
 Keeping the private keys secret is also handled by the Bitcoin wallet software.
 
 ### An attacker could steal a users private keys to steal their bitcoin.
-![alt text](https://user-images.githubusercontent.com/10575321/31319377-429ab034-ac30-11e7-96d0-d1526183ea18.jpg "Stolen Private Keys")
-
 If an attacker can gain access to a users private key
 he can send the associated bitcoin to himself.
 
@@ -94,8 +92,6 @@ digital asset.
 ---
 
 ### An attacker could use a quantum computer to guess everyone's private keys.
-![alt text](https://user-images.githubusercontent.com/10575321/31319523-ca53f20e-ac32-11e7-9cd5-c915bbb22ee5.jpg "Stolen Private Keys")
-
 If an attacker could gain access to everyone's private keys
 he could steal every bitcoin.
 
@@ -122,8 +118,6 @@ After a transaction is created
 it is relayed over the Bitcoin network.
 
 ### An attacker could broadcast a fake transaction to the network in order to steal bitcoins.
-![alt text](https://user-images.githubusercontent.com/10575321/31319560-95fb70d0-ac33-11e7-89c3-3f4b28efee10.jpg "Stolen Private Keys")
-
 If an attacker could convince the network that a transaction was legitimate
 he could transfer bitcoins from a victims balance to his own account.
 
@@ -152,7 +146,6 @@ that allows an attacker to forge a digital signature.
 ---
 
 ### An attacker could broadcast a large number of transactions that pay himself in order to clog the network.
-
 Because anyone can broadcast a transaction on the Bitcoin network
 it is possible for an attacker to broadcast a large number of transactions
 that transfer bitcoins to themselves.
