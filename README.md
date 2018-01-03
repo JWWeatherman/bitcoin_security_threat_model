@@ -82,7 +82,7 @@ far higher than is common in banking.
 * [Bitcoin owners give away their private keys on MtGox](https://www.wired.com/2014/03/bitcoin-exchange/)
 
 ***No Impact on Adoption***
-Although users need to be careful to
+* Although users need to be careful to
 keep their private keys safe,
 Bitcoin remains the most secure
 digital asset.
@@ -99,10 +99,10 @@ than is produced by the sun in its entire lifetime to power
 a computer capable of guessing it.
 
 ***Past Attacks***
-There have been no known attempts to perform this attack.
+* There have been no known attempts to perform this attack.
 
 ***No Impact on Adoption***
-This attack is probably impossible.
+* This attack is probably impossible.
 It is very unlikely that quantum computing
 or any other field of scientific research
 will result in such a drastic rewriting
@@ -135,10 +135,10 @@ and have proven to be effective and secure in many applications
 including Bitcoin.
 
 ***Past Attacks***
-There have been no known attempts to perform this attack.
+* There have been no known attempts to perform this attack.
 
 ***No Impact on Adoption***
-It is unlikely that a flaw will be discovered
+* It is unlikely that a flaw will be discovered
 that allows an attacker to forge a digital signature.
 
 ---
@@ -183,7 +183,7 @@ https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirm
 https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/)
 
 ***No Impact no Adoption***
-Although this attack has been performed regularly in recent months
+* Although this attack has been performed regularly in recent months
 its only effect
 has been occasional transaction delays and higher fees.
 It has not significantly slowed adoption.
@@ -225,7 +225,7 @@ or hack if it hasn't been already.](https://en.wikipedia.org/wiki/XKeyscore)
 * [BlockCypher has developed a graph network analysis system which link's activity on the bitcoin blockchain, and attempts to resolve activity back to individuals. They also run machine learning models against each bitcoin transaction to "score" it's association with gambling/drugs/etc. This system is partially detailed in the following talk given at a big data conference.](https://www.youtube.com/watch?v=8ELUDY1-ee0) 
 
 ***No Impact on Adoption***
-Bitcoin transactions can be tied to the senders by analyzing network traffic,
+* Bitcoin transactions can be tied to the senders by analyzing network traffic,
 however unless Bitcoin transactions become less secure than government money
 transactions this is unlikely to prevent Bitcoin from becoming cash.
 It is also likely that additional safety features will be added
@@ -258,7 +258,7 @@ to address this issue soon.
 https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/)
 
 ***Medium Risk***
-Bitcoin transactions can be tied to the senders by analyzing the public ledger,
+* Bitcoin transactions can be tied to the senders by analyzing the public ledger,
 however unless Bitcoin transactions become less secure than government money
 transactions this is unlikely to prevent Bitcoin from becoming cash.
 It is also likely that additional safety features will be added
@@ -324,7 +324,7 @@ and this would increase the cost of the attack.
 https://bitcoinmagazine.com/articles/why-do-some-bitcoin-mining-pools-mine-empty-blocks-1468337739/)
 
 ***No Impact on Adoption***
-The only effect of this attack would be to increase fees
+* The only effect of this attack would be to increase fees
 and fees are unlikely to go high enough
 to significantly slow adoption
 as investors anticipate that this
@@ -386,7 +386,7 @@ only allowed the attacker to fake ~20% of his work.
 https://www.asicboost.com/)
 
 ***No Impact on Adoption***
-Although past attacks have been successful
+* Although past attacks have been successful
 they were a result of a known design flaw (transaction malleability)
 that has been fixed.
 
@@ -490,7 +490,7 @@ https://medium.com/faith-and-future/why-is-bitcoin-forking-d647312d22c1)
 https://bitcoinclassic.com/)
 
 ***No Impact to Adoption***
-This attack is unlikely to be successful.
+* This attack is unlikely to be successful.
 
 ---
 
@@ -531,7 +531,7 @@ making this attack ineffective over time.
 https://web.archive.org/web/20170928124716/https://www.bitcoincash.org/)
 
 ***No Impact to Adoption***
-This threat is unlikely to impact adoption. The Bitcoin Cash fork
+* This threat is unlikely to impact adoption. The Bitcoin Cash fork
 attack was well funded and benefited from a major design flaw in Bitcoin
 (transaction malleability) that has now been fixed
 and a method for deploying controversial changes (miner signaling)
@@ -632,7 +632,7 @@ https://www.bitcoincash.org/)
 https://litecoin.info/)
 
 ***No Impact on Adoption***
-Although the market cap falsely indicates otherwise,
+* Although the market cap falsely indicates otherwise,
 Bitcoin adoption has not been slowed by past attacks
 and likely has been accelerated.
 
@@ -660,11 +660,11 @@ it would, be an upgrade to Bitcoin,
 not a competitor of Bitcoin.
 
 ***Past Attacks***
-This attack would result in improved Bitcoin security.
+* This attack would result in improved Bitcoin security.
 It is not really an attack when properly understood.
 
 ***No Impact on Adoption***
-This attack would result in improved Bitcoin security.
+* This attack would result in improved Bitcoin security.
 It is not really an attack when properly understood.
 
 ---
@@ -686,7 +686,7 @@ will simply be ignored by the Bitcoin network.
 https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce)
 
 ***No Impact on Adoption***
-This attack is not effective,
+* This attack is not effective,
 but it could be used to support
 a misinformation campaign,
 a fork to remove a safety feature,
@@ -777,7 +777,7 @@ they would remove the security flaw.
 http://www.antbleed.com/)
 
 ***No Impact to Adoption***
-Even if successful this attack would probably have no effect on the Bitcoin network.
+* Even if successful this attack would probably have no effect on the Bitcoin network.
 
 ---
 
@@ -810,7 +810,7 @@ He could not create invalid bitcoins or steal bitcoins.
 and would be best served by mining bitcoins for profit and securing the network.
 
 ***No Impact to Adoption***
-Although the attack is possible it is unlikely that it would succeed in disrupting
+* Although the attack is possible it is unlikely that it would succeed in disrupting
 the Bitcoin network for any significant period of time.
 
 
@@ -837,7 +837,7 @@ This is in spite of the fact that well funded industries and governments
 have attempted to shut them down in the past.
 
 ***No Impact to Adoption***
-Although the attack is possible it is unlikely that it would succeed in disrupting
+* Although the attack is possible it is unlikely that it would succeed in disrupting
 the Bitcoin network for any significant period of time.
 
 ---
@@ -872,7 +872,7 @@ by becoming investors in Bitcoin
 than attempting to prop up its organization's competing cash.
 
 ***No Impact to Adoption***
-While the threat to an individual investor may be high
+* While the threat to an individual investor may be high
 Bitcoin offers more investor security than the assets it competes with
 so it is unlikely that extorted private keys will prevent Bitcoin from becoming money.
 
@@ -902,7 +902,7 @@ http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-
 https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin)
 
 ***No Impact to Adoption***
-In spite of the fact that
+* In spite of the fact that
 these attacks have been constant and well funded,
 Bitcoin adoption has been rapid and
 has arguably been faster than the technical advancements,
@@ -953,7 +953,7 @@ This could increase interest in Bitcoin in areas where it is
 prohibited by a corrupt government or other criminal organization.
 
 ***No Impact to Adoption***
-Even the announcement that China,
+* Even the announcement that China,
 previously thought to be one of the most important regions for Bitcoin,
 will ban all Bitcoin transactions merely caused
 transactions to move to decentralized exchanges.
@@ -994,7 +994,7 @@ This makes these type of attacks risky as they could result in the loss
 of existing avenues of extortion.
 
 ***Medium Risk***
-Although it is unlikely this attack could prevent Bitcoin from
+* Although it is unlikely this attack could prevent Bitcoin from
 becoming cash it could possibly slow adoption.
 
 ***Past Attacks***
@@ -1045,7 +1045,7 @@ https://bitcointalk.org/index.php?topic=1813452.0)
 https://www.youtube.com/watch?v=TdmpAy1hI8g&t=2654s) (42:30)
 
 ***No Impact to Adoption***
-Given the roots of the Bitcoin development community it is unlikely that this attack would be successful.
+* Given the roots of the Bitcoin development community it is unlikely that this attack would be successful.
 
 ---
 
@@ -1077,7 +1077,7 @@ https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7)
 https://www.coingecko.com/buzz/gavin-andresen-unlimited-block-size-fine)
 
 ***No Impact to Adoption***
-Although it appears this attack has been attempted
+* Although it appears this attack has been attempted
 more than once in recent years
 no security flaws have been introduced to Bitcoin.
 
@@ -1106,10 +1106,10 @@ If this attack was executed it would make Bitcoin mining more profitable
 and this would attract additional manufacturers and mining operators.
 
 ***Past Attacks***
-No past attacks have been disclosed.
+* No past attacks have been disclosed.
 
 ***No Impact on Adoption***
-It is unlikely this attack would significantly slow adoption.
+* It is unlikely this attack would significantly slow adoption.
 
 ---
 
