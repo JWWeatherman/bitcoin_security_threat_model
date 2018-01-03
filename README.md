@@ -25,9 +25,9 @@ by making the software behave in a way that is ineffective as cash
 or by attacking the humans that are needed to support the software.
 
 Threats are categorized as one of the following:
-* ***Prevent Adoption*** - These threats have a reasonable chance of preventing Bitcoin from being adopted as cash.
-* ***Significantly Slow Adoption*** - These threats have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
-* ***No Impact on Adoption*** - These threats do not have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
+* **Prevent Adoption** - These threats have a reasonable chance of preventing Bitcoin from being adopted as cash.
+* **Significantly Slow Adoption** - These threats have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
+* **No Impact on Adoption** - These threats do not have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
 
 Currently there are no threats that have been identified that could
 prevent or significantly slow adoption of Bitcoin as cash.
@@ -57,7 +57,7 @@ Keeping the private keys secret is also handled by the Bitcoin wallet software.
 If an attacker can gain access to a users private key
 he can send the associated bitcoin to himself.
 
-***Safety Features***
+**Safety Features**
 * Because each Bitcoin user maintains his own private keys
 an attacker can only steal from one person at a time.
 This greatly reduces the incentive
@@ -76,12 +76,12 @@ without physical access to the device and password or pin number.
 This is a level of security that is
 far higher than is common in banking.
 
-***Past Attacks***
+**Past Attacks**
 * [Bitcoin owner has private keys stolen in 2011 when keeping private keys safe was much harder.](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423)
 * [Bitcoin owners give away their private keys on Sheep (that is the name of the service](https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-at-least-5-million-owners-blamed)
 * [Bitcoin owners give away their private keys on MtGox](https://www.wired.com/2014/03/bitcoin-exchange/)
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * Although users need to be careful to
 keep their private keys safe,
 Bitcoin remains the most secure
@@ -93,15 +93,15 @@ digital asset.
 If an attacker could gain access to everyone's private keys
 he could steal every bitcoin.
 
-***Safety Features***
+**Safety Features**
 * The private key is so large that it would take more energy
 than is produced by the sun in its entire lifetime to power
 a computer capable of guessing it.
 
-***Past Attacks***
+**Past Attacks**
 * There have been no known attempts to perform this attack.
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * This attack is probably impossible.
 It is very unlikely that quantum computing
 or any other field of scientific research
@@ -119,7 +119,7 @@ it is relayed over the Bitcoin network.
 If an attacker could convince the network that a transaction was legitimate
 he could transfer bitcoins from a victims balance to his own account.
 
-***Safety Features***
+**Safety Features**
 * The Bitcoin network will reject any transactions that are not
 digitally signed by the private keys of the owner of the bitcoins.
 * If a flaw in the digital signature mechanism is discovered
@@ -134,10 +134,10 @@ to attempt this attack.
 and have proven to be effective and secure in many applications
 including Bitcoin.
 
-***Past Attacks***
+**Past Attacks**
 * There have been no known attempts to perform this attack.
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * It is unlikely that a flaw will be discovered
 that allows an attacker to forge a digital signature.
 
@@ -153,7 +153,7 @@ created with the intention of clogging the network.
 If the network is unable to process legitimate transactions
 Bitcoin would not be suitable as cash.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin transactions are processed in order of the fees
 associated with the transaction.
 This makes congesting the network with frivolous transactions costly.
@@ -174,7 +174,7 @@ using a "block size" limit.
 This ensures that clogging the network would require competing
 for space through fees.
 
-***Past Attacks***
+**Past Attacks**
 * [Bitcoin spam attacks in 2015-2017](
 https://bravenewcoin.com/news/bitcoin-spam-attack-stressed-network-for-at-least-18-months-claims-software-developer/)
 * [Bitcoin investor is fearful this will prevent Bitcoin from becoming cash](
@@ -182,7 +182,7 @@ https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirm
 * [Bitcoin spam attack is used as support for attack 2.5.3.](
 https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/)
 
-***No Impact no Adoption***
+**No Impact no Adoption**
 * Although this attack has been performed regularly in recent months
 its only effect
 has been occasional transaction delays and higher fees.
@@ -199,7 +199,7 @@ Bitcoin transactions are broadcast across the Internet by the sender.
 If an attacker can view network traffic and discover the source and
 destination of transactions this would make Bitcoin less suitable for cash.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin destination addresses are randomly generated
 for each transaction
 and not tied to an individuals identity.
@@ -213,7 +213,7 @@ such as free wifi hotspots at coffee shops.
 However this is still a major inconvenience
 and it can still reveal the senders general location.
 
-***Past Attacks***
+**Past Attacks**
 * [The NSA collects and stores all Internet traffic.
 It is reasonable to assume all Bitcoin transactions are archived
 and analyzed so that they are easily readable and tied to individuals.](https://www.theguardian.com/world/interactive/2013/jul/31/nsa-xkeyscore-program-full-presentation)
@@ -224,7 +224,7 @@ or hack if it hasn't been already.](https://en.wikipedia.org/wiki/XKeyscore)
 
 * [BlockCypher has developed a graph network analysis system which link's activity on the bitcoin blockchain, and attempts to resolve activity back to individuals. They also run machine learning models against each bitcoin transaction to "score" it's association with gambling/drugs/etc. This system is partially detailed in the following talk given at a big data conference.](https://www.youtube.com/watch?v=8ELUDY1-ee0) 
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * Bitcoin transactions can be tied to the senders by analyzing network traffic,
 however unless Bitcoin transactions become less secure than government money
 transactions this is unlikely to prevent Bitcoin from becoming cash.
@@ -241,7 +241,7 @@ If it is possible for an attacker to discover
 the people involved in a transaction
 this would make Bitcoin less attractive as cash.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin destination addresses are randomly generated
 for each transaction
 and not tied to an individuals identity.
@@ -253,11 +253,11 @@ and software security experts.
 It is likely that additional safety features will be added
 to address this issue soon.
 
-***Past Attacks***
+**Past Attacks**
 * [Ross Ulbrict's transactions are traced by the FBI.](
 https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/)
 
-***Medium Risk***
+**Medium Risk**
 * Bitcoin transactions can be tied to the senders by analyzing the public ledger,
 however unless Bitcoin transactions become less secure than government money
 transactions this is unlikely to prevent Bitcoin from becoming cash.
@@ -288,7 +288,7 @@ that confirms transactions on the Bitcoin network
 it is possible for an attacker to mine blocks without including
 transactions.
 
-***Safety Features***
+**Safety Features**
 * Transactions include transaction fees.
 If an attacker ignores these transactions,
 he will not be able to collect the associated transaction fees.
@@ -319,11 +319,11 @@ Increased fees would incentivize others to mine
 blocks with the transactions
 and this would increase the cost of the attack.
 
-***Past Attacks***
+**Past Attacks**
 * [Miners are creating blocks without any transactions.](
 https://bitcoinmagazine.com/articles/why-do-some-bitcoin-mining-pools-mine-empty-blocks-1468337739/)
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * The only effect of this attack would be to increase fees
 and fees are unlikely to go high enough
 to significantly slow adoption
@@ -345,7 +345,7 @@ is confirmed by the network.
 This would make the initial transaction invalid
 after it was relayed across the network.
 
-***Safety Features***
+**Safety Features**
 * The cost of executing this attack increases exponentially
 as the transaction moves further back into the block history
 because the Bitcoin network considers the longest (valid)
@@ -360,7 +360,7 @@ desirable to the marketplace beyond securing the network.
 This prevents attacks like these from being partially subsidized
 through the sale of other proof of work outputs.
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 This attack is not cost effective.
 
 
@@ -371,7 +371,7 @@ If an attacker is able to find a flaw in the proof of work algorithm
 he could obtain the benefits of transaction fees and block rewards
 without doing the work required to secure the Bitcoin network.
 
-***Safety Features***
+**Safety Features**
 * The proof or work algorithm is based on the SHA-256 hash algorithm.
 This algorithm has been in use for over a decade and is critical to
 most digital security applications
@@ -381,11 +381,11 @@ for over 8 years and
 the only flaw uncovered to date
 only allowed the attacker to fake ~20% of his work.
 
-***Past attacks***
+**Past attacks**
 * [Attackers discover a way to fake work.](
 https://www.asicboost.com/)
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * Although past attacks have been successful
 they were a result of a known design flaw (transaction malleability)
 that has been fixed.
@@ -396,7 +396,7 @@ that has been fixed.
 If an attacker could gain control of all of the hardware used to confirm Bitcoin
 transactions he could prevent some or all Bitcoin transactions.
 
-***Safety Features***
+**Safety Features**
 
 * Bitcoin mining is decentralized.
 Mining computers are located in many geographic areas
@@ -427,7 +427,7 @@ Because he is so well respected in the Bitcoin community he,
 or someone pretending to be him,
 could attempt to remove a security feature in the next version of Bitcoin.
 
-***Safety Features***
+**Safety Features**
 
 * Satoshi Nakamoto disappeared from the Bitcoin community years ago.
 Since that time many well respected developers and security researchers
@@ -445,7 +445,7 @@ undermined the argument because it distracts
 from the technical advantages and disadvantages
 of a given design or implementation decision.
 
-***Past Attacks***
+**Past Attacks**
 * [Craig Wright impersonates Satoshi in order to remove the block size limit.](
 https://dankaminsky.com/2016/05/02/validating-satoshi-or-not/)
 
@@ -468,7 +468,7 @@ If an attacker is able to convince the community that a new feature
 is more important than an existing safety feature,
 the safety feature would be removed.
 
-***Safety Features***
+**Safety Features**
 * The Bitcoin technical community has the best software security experts
 working diligently to keep Bitcoin secure.
 * Because the Bitcoin software is currently securing over 60 Billion USD
@@ -481,7 +481,7 @@ It is likely that any significant change in the future
 will be deployed onto a side chain before those features
 are included into Bitcoin itself.
 
-***Past Attacks***
+**Past Attacks**
 * [Segwit 2x attempts to remove the block size limit safety feature.](
 https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce)
 * [Bitcoin XT attempts to remove the block size limit safety feature.](
@@ -489,7 +489,7 @@ https://medium.com/faith-and-future/why-is-bitcoin-forking-d647312d22c1)
 * [Bitcoin Classic attempts to remove the block size limit safety feature.](
 https://bitcoinclassic.com/)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * This attack is unlikely to be successful.
 
 ---
@@ -501,7 +501,7 @@ If they can convince someone that their version of Bitcoin is
 the real Bitcoin they will have successfully removed
 that safety for those users.
 
-***Safety Features***
+**Safety Features**
 * If investors are deceived into using a version of Bitcoin that
 lacks the safety features of Bitcoin that does not reduce the security of Bitcoin.
 * While siphoning off investors from Bitcoin would delay Bitcoin
@@ -526,11 +526,11 @@ that doesn't work as well as Bitcoin as cash.
 This fact will eventually become clear to all investors
 making this attack ineffective over time.
 
-***Past Attacks***
+**Past Attacks**
 * [Bitcoin Cash attempts to remove the block size limit safety feature.](
 https://web.archive.org/web/20170928124716/https://www.bitcoincash.org/)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * This threat is unlikely to impact adoption. The Bitcoin Cash fork
 attack was well funded and benefited from a major design flaw in Bitcoin
 (transaction malleability) that has now been fixed
@@ -558,7 +558,7 @@ spread out the efforts of security experts
 and at most prevent some implementations from being
 reviewed before deployment.
 
-***Safety Features***
+**Safety Features**
 * The Bitcoin development community is aware of this attack
 and has been very vocal about the need to prevent it.
 * Bitcoin development is very difficult and
@@ -570,7 +570,7 @@ security fixes both to protect Bitcoin and
 to expose the poor quality of some implementations
 before they are adopted by the unwitting.
 
-***Past Attacks***
+**Past Attacks**
 * [Bitcoin Unlimited contained security flaws that would have been caught in code review.](
 https://bitcoinmagazine.com/articles/security-researcher-found-bug-knocked-out-bitcoin-unlimited/)
 * [Bitcoin ABC contained security flaw that would have been caught in code review.](
@@ -598,7 +598,7 @@ This is called an SPV (Simple Payment Verification) wallet.
 If an attacker can trick investors into using his digital asset as cash it could prevent Bitcoin
 from becoming cash (unit of account).
 
-***Safety Features***
+**Safety Features**
 * If a digital asset is less secure than Bitcoin
 it is also less suitable as cash.
 Eventually this reality will be
@@ -621,7 +621,7 @@ are more difficult to deceive.
 The net effect of this attack is to
 educate people of the value of Bitcoin.
 
-***Past Attacks***
+**Past Attacks**
 * [Ethereum has no maximum limit of Ether and no built in difficulty adjustment.](
 https://github.com/ethereum/wiki/wiki/White-Paper)
 * [Ripple does not use proof of work and requires trusted "validators."](
@@ -631,7 +631,7 @@ https://www.bitcoincash.org/)
 * [Litecoin removed the cutting edge chip design safety feature.](
 https://litecoin.info/)
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * Although the market cap falsely indicates otherwise,
 Bitcoin adoption has not been slowed by past attacks
 and likely has been accelerated.
@@ -642,7 +642,7 @@ and likely has been accelerated.
 If an attacker could create a more secure digital asset investors
 would abandon Bitcoin and adopt this new asset as cash.
 
-***Safety Features***
+**Safety Features**
 * The vast majority of cryptography experts
 are working on Bitcoin.
 * As an open source project Bitcoin is able
@@ -659,11 +659,11 @@ and honors past Bitcoin transactions
 it would, be an upgrade to Bitcoin,
 not a competitor of Bitcoin.
 
-***Past Attacks***
+**Past Attacks**
 * This attack would result in improved Bitcoin security.
 It is not really an attack when properly understood.
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * This attack would result in improved Bitcoin security.
 It is not really an attack when properly understood.
 
@@ -674,18 +674,18 @@ If an attacker could make the network accept blocks
 that don't include a safety feature
 he would have effectively removed that safety feature.
 
-***Safety Feature***
+**Safety Feature**
 * The Bitcoin network enforces the rules
 that include safety features
 on every Bitcoin node, miner and wallet.
 As a result blocks mined without the safety feature
 will simply be ignored by the Bitcoin network.
 
-***Past Attacks***
+**Past Attacks**
 * [Segwit 2x](
 https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce)
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * This attack is not effective,
 but it could be used to support
 a misinformation campaign,
@@ -700,7 +700,7 @@ running the Bitcoin node software it is possible to provide
 a node or a group of nodes
 false information about the current state of a transaction.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin nodes form a peer-to-peer network and obtain copies of transactions
 from multiple nodes. An attacker would need to prevent a node
 from communicating with all innocent nodes in order for this attack to be successful.
@@ -760,7 +760,7 @@ If an attacker included a "back door" in mining hardware
 before it was shipped to the buyer
 he could gain control of the majority of the Bitcoin computing power.
 
-***Safety Features***
+**Safety Features**
 * The Bitcoin network is not effected by the specific owners of mining
 hardware. The attacker would be as legitimate a Bitcoin miner
 as the previous owners before control of the hardware was stolen.
@@ -772,11 +772,11 @@ as the rightful owners.
 not behaving according to their wishes
 they would remove the security flaw.
 
-***Past Attacks***
+**Past Attacks**
 * [Bitmain, the most popular mining hardware manufacturer, includes a backdoor.](
 http://www.antbleed.com/)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Even if successful this attack would probably have no effect on the Bitcoin network.
 
 ---
@@ -793,7 +793,7 @@ People that run the software needed to support Bitcoin can be attacked.
 Bitcoin mining is a critical part of the Bitcoin network.
 Without functioning mining software no new Bitcoin transactions could be trusted.
 
-***Safety Features***
+**Safety Features**
 
 * Bitcoin mining can be done anonymously. In the most extreme case
 a Bitcoin miner could obtain new transactions and distribute discovered blocks
@@ -809,7 +809,7 @@ He could not create invalid bitcoins or steal bitcoins.
 * An attacker that intimidates a miner has effectively stolen the mining equipment
 and would be best served by mining bitcoins for profit and securing the network.
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Although the attack is possible it is unlikely that it would succeed in disrupting
 the Bitcoin network for any significant period of time.
 
@@ -820,7 +820,7 @@ the Bitcoin network for any significant period of time.
 Bitcoin nodes are critical to the Bitcoin network.
 Without a network of functioning nodes new transactions could not be relayed.
 
-***Safety Features***
+**Safety Features**
 * Nodes simply validate and relay transactions.
 Even if a node operator was intimidated into action he could at most slightly delay
 the relay of traffic and deceive any partial nodes that trusted him to validate transactions
@@ -836,7 +836,7 @@ extremely difficult, if not impossible, to shut down.
 This is in spite of the fact that well funded industries and governments
 have attempted to shut them down in the past.
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Although the attack is possible it is unlikely that it would succeed in disrupting
 the Bitcoin network for any significant period of time.
 
@@ -850,7 +850,7 @@ and be unsuitable as cash.
 An attacker could threaten to harm a Bitcoin investor
 unless he handed over the private keys to his bitcoin holdings.
 
-***Safety Features***
+**Safety Features**
 * Many Bitcoin investors are anonymous making extortion difficult.
 * Bitcoin investors have unknown balances making
 extorting all of the bitcoin held by an investor difficult.
@@ -871,7 +871,7 @@ Senior decision makers would gain greater personal benefits
 by becoming investors in Bitcoin
 than attempting to prop up its organization's competing cash.
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * While the threat to an individual investor may be high
 Bitcoin offers more investor security than the assets it competes with
 so it is unlikely that extorted private keys will prevent Bitcoin from becoming money.
@@ -883,14 +883,14 @@ If investors were tricked into believing Bitcoin is less useful as money
 than another asset they would sell. If this could be achieved at sufficient scale
 Bitcoin would not become cash.
 
-***Safety Features***
+**Safety Features**
 * To the extent that this attack is only partially successful
 it would inoculate investors to future deception.
 * This attack would be impossible to maintain for a long period of time.
 * Access to information has been increasing at a rapid rate
 for the last 50 years and it seems unlikely that this trend will reverse.
 
-***Past Attacks***
+**Past Attacks**
 
 * [False story that the "Bitcoin network" was hacked.](
 https://www.wired.com/2014/03/bitcoin-exchange/)
@@ -901,7 +901,7 @@ http://www.businessinsider.com/goldman-completely-debunks-all-the-arguments-for-
 * [Head of JP Morgan says Bitcoin is a fraud and can be shut down by governments.](
 https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * In spite of the fact that
 these attacks have been constant and well funded,
 Bitcoin adoption has been rapid and
@@ -928,7 +928,7 @@ If an attacker can make it impossible to buy or sell bitcoin
 he wouldn't have to force existing investors to sell or hand over bitcoin
 because an asset that can't be sold can't become money.
 
-***Safety Features***
+**Safety Features**
 * As more of the world savings moves into digital assets
 this becomes a more difficult attack
 because digital assets can more easily be exchanged for one another anonymously.
@@ -952,13 +952,13 @@ represent rebellion or resistance to the threat of violence.
 This could increase interest in Bitcoin in areas where it is
 prohibited by a corrupt government or other criminal organization.
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Even the announcement that China,
 previously thought to be one of the most important regions for Bitcoin,
 will ban all Bitcoin transactions merely caused
 transactions to move to decentralized exchanges.
 
-***Past Attacks***
+**Past Attacks**
 * [China ban's Bitcoin exchanges.](
 https://www.theverge.com/2017/9/18/16326078/chinese-regulators-ban-cryptocurrency-platforms-bitcoin)
 
@@ -979,7 +979,7 @@ or pay money,
 if they accept bitcoin in order to prevent Bitcoin from
 becoming cash (including the unit of account).
 
-***Safety Features***
+**Safety Features**
 * Bitcoin transactions, like paper cash transactions, are difficult for governments to tax.
 This provides significant financial incentive for merchants to accept bitcoins secretly
 and to provide a "regular price" and a "bitcoin or cash price."
@@ -993,11 +993,11 @@ they increase the benefits of secret transactions.
 This makes these type of attacks risky as they could result in the loss
 of existing avenues of extortion.
 
-***Medium Risk***
+**Medium Risk**
 * Although it is unlikely this attack could prevent Bitcoin from
 becoming cash it could possibly slow adoption.
 
-***Past Attacks***
+**Past Attacks**
 * [US Government requires capital gain tax calculation on every $1 cup of coffee transaction.](
 https://www.thebalance.com/how-bitcoins-are-taxed-3192871)
 
@@ -1014,7 +1014,7 @@ If an attacker could convince developers that contributing to Bitcoin
 is likely to result in their death or kidnapping it is possible
 that Bitcoin would fail to become cash.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin development can be done anonymously.
 In fact the original white paper author
 and first Bitcoin developer,
@@ -1038,13 +1038,13 @@ In this way, even well funded organizations that wish to destroy Bitcoin develop
 would likely end up funding improvements through "reverse-corruption."
 * There are a large and growing number of Bitcoin developers.
 
-***Past Attacks***
+**Past Attacks**
 * [Satoshi stopped contributing to Bitcoin out of fear of harm.](
 https://bitcointalk.org/index.php?topic=1813452.0)
 * [Tim May left the cypherpunk mailing out of fear of the US Government after 9/11.](
 https://www.youtube.com/watch?v=TdmpAy1hI8g&t=2654s) (42:30)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Given the roots of the Bitcoin development community it is unlikely that this attack would be successful.
 
 ---
@@ -1053,7 +1053,7 @@ https://www.youtube.com/watch?v=TdmpAy1hI8g&t=2654s) (42:30)
 If an attacker could get flawed code into the next version of Bitcoin he could destroy
 the features of Bitcoin that make it useful as money.
 
-***Safety Features***
+**Safety Features**
 * Bitcoin code reviewed by hundreds of software security experts before any change is introduced.
 It would be very hard to construct a change that contained a security flaw that wouldn't be noticed
 by the Bitcoin community at large.
@@ -1070,13 +1070,13 @@ the more unlikely it is that a flaw will remain undiscovered until it is impleme
 * A Bitcoin developer will only have one chance to introduce a flaw if he is caught as his
 credibility will be destroyed.
 
-***Past Attacks***
+**Past Attacks**
 * [Mike Hearn attempts to remove block limit safety feature](
 https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7)
 * [Gavin Andresen attempts to remove block limit safety feature](
 https://www.coingecko.com/buzz/gavin-andresen-unlimited-block-size-fine)
 
-***No Impact to Adoption***
+**No Impact to Adoption**
 * Although it appears this attack has been attempted
 more than once in recent years
 no security flaws have been introduced to Bitcoin.
@@ -1092,7 +1092,7 @@ If cutting edge Bitcoin mining hardware was no longer available
 it would make confirming transactions less secure.
 This could reduce the security of Bitcoin enough to prevent it from becoming cash.
 
-***Safety Features***
+**Safety Features**
 * Mining hardware makes confirming transactions more efficient,
 but this action may motivate the Bitcoin community enough
 to overcompensate for the loss of efficiency using less efficient hardware.
@@ -1105,10 +1105,10 @@ mining hardware increases.
 If this attack was executed it would make Bitcoin mining more profitable
 and this would attract additional manufacturers and mining operators.
 
-***Past Attacks***
+**Past Attacks**
 * No past attacks have been disclosed.
 
-***No Impact on Adoption***
+**No Impact on Adoption**
 * It is unlikely this attack would significantly slow adoption.
 
 ---
