@@ -274,6 +274,63 @@ https://reviews.bitcoinabc.org/rABCb7d5bda29c07cd80c900e3ddd6a9a37a2b23f347
 * Bitcoin XT contained a security flaw that could have been cough in code review.,
 https://www.reddit.com/r/bitcoinxt/comments/43lty6/current_bitcoin_xt_contains_a_network_splitting/
 
+### An attacker could create an insecure second layer network on top of Bitcoin.
+If an attacker is able to create 
+an insecure second layer solution 
+on top of Bitcoin he could
+steal all bitcoin moved into the
+second layer network.
+
+Historically large thefts of bitcoin,
+even when unrelated to security flaws
+in the bitcoin network itself,
+have resulted in signifiant decreases
+to the bitcoin price.
+
+This would allow an attacker to profit
+in at least two ways.
+First, he would gain the bitcoin stored
+in the insecure layer two network,
+and second,
+he could "short" bitcoin
+and thereby profit from the decreased
+market value of bitcoin.
+
+**Past Attacks**
+* Drive Chains contained a security flaw that would allow 51% of miners to steal all funds.
+https://web.archive.org/web/20170928073638/http://www.drivechain.info
+* RSK planned to introduce a security flaw that would allow 51% of miners to steal all funds.
+https://web.archive.org/web/20180109005847/https://www.rsk.co/
+
+**Safety Features**
+* An insecure layer two
+network must contain a security flaw
+in order for an attacker to be able steal funds.
+This allows honest participants 
+to make it clear that they intend 
+to take advantage of the design 
+to drain the funds.
+
+By being public about their intention,
+and their progress towards obtaining the funds,
+the honest actors will likely aquire more 
+support, for example hash power,
+than the attackers. 
+
+This will have two helpful effects.
+First, the attackers will lose significant motivation
+to develop the insecure layer two solution
+because it is unlikely that they will be able
+to drain the funds before the honest actors
+and it is unlikely the amount of funds
+available to steal would be significant
+due to the second effect..
+
+Knowledge of the ongoing project
+to drain the funds from the layer two network
+would discourage users from moving their funds
+into the insecure layer two network.
+
 ## Observing confirmed transactions
 In order for a transaction to be completed the receiver must be confident the transaction has been irreversibly confirmed by the Bitcoin network. this is performed by Bitcoin "node" software. This software maintains a copy of the longest set of transactions presented to it that are valid. The node software considers a transaction valid if it is structured correctly, digitally signed by the bitcoin owner, and does not attempt to transfer more bitcoin than is available to the sender. Some Bitcoin wallets do not contain the node software, but instead connect to a remote node to confirm that a transaction is completed. This is called an SPV (Simple Payment Verification) wallet.
 
