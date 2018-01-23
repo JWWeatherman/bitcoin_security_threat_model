@@ -276,7 +276,7 @@ https://www.reddit.com/r/bitcoinxt/comments/43lty6/current_bitcoin_xt_contains_a
 
 ### An attacker could create an insecure second layer network on top of Bitcoin.
 If an attacker is able to create 
-an insecure second layer solution 
+an insecure second layer network 
 on top of Bitcoin he could
 steal all bitcoin moved into the
 second layer network.
@@ -303,9 +303,8 @@ https://web.archive.org/web/20170928073638/http://www.drivechain.info
 https://web.archive.org/web/20180109005847/https://www.rsk.co/
 
 **Safety Features**
-* An insecure layer two
-network must contain a security flaw
-in order for an attacker to be able steal funds.
+An insecure layer two
+network must contain a security flaw.
 This allows honest participants 
 to make it clear that they intend 
 to take advantage of the design 
@@ -317,19 +316,22 @@ the honest actors will likely aquire more
 support, for example hash power,
 than the attackers. 
 
-This will have two helpful effects.
+This will have a few helpful effects.
 First, the attackers will lose significant motivation
 to develop the insecure layer two solution
 because it is unlikely that they will be able
-to drain the funds before the honest actors
-and it is unlikely the amount of funds
-available to steal would be significant
-due to the second effect..
+to drain the funds before the honest actors.
 
-Knowledge of the ongoing project
+Second, knowledge of the ongoing project
 to drain the funds from the layer two network
 would discourage users from moving their funds
 into the insecure layer two network.
+
+Third, if the attackers are aware of this
+they will be further demotivated 
+to implement an insecure layer two solution 
+because the amount of funds that will be available
+to steal will not be significant.
 
 ## Observing confirmed transactions
 In order for a transaction to be completed the receiver must be confident the transaction has been irreversibly confirmed by the Bitcoin network. this is performed by Bitcoin "node" software. This software maintains a copy of the longest set of transactions presented to it that are valid. The node software considers a transaction valid if it is structured correctly, digitally signed by the bitcoin owner, and does not attempt to transfer more bitcoin than is available to the sender. Some Bitcoin wallets do not contain the node software, but instead connect to a remote node to confirm that a transaction is completed. This is called an SPV (Simple Payment Verification) wallet.
