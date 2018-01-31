@@ -5,23 +5,36 @@
 ---
 
 # Motivation
-The Bitcoin threat model is intended to help developers, investors and users better understand the security of Bitcoin. Threats are assumed to be any activity designed to prevent Bitcoin from accomplishing its mission to become cash (including a unit of account). Under each threat is a description of the threat, the safety features designed to protect against the threat, and any past examples of attacks executing the threat. Bitcoin can be attacked directly by making the software behave in a way that is ineffective as cash or by attacking the humans that are needed to support the software.
+The Bitcoin threat model is intended to help developers, 
+investors and users better understand the security of Bitcoin. 
+Threats are assumed to be any activity designed to prevent Bitcoin 
+from accomplishing its mission to become cash (including a unit of account). 
 
 # Conclusion
-Currently there are no threats that have been identified that could prevent or significantly slow adoption of Bitcoin as cash. However, new threats could be discovered or existing threats may prove to be more impactful. Given the impact Bitcoin is likely to have, and the frequency and intensity of past attacks, this remains a real possibility.
+Currently there are no threats that have been identified 
+that could prevent or significantly slow adoption of Bitcoin as cash. 
+However, new threats could be discovered 
+or existing threats may prove to be more impactful. 
+Given the impact Bitcoin is likely to have, 
+and the frequency and intensity of past attacks, 
+this remains a real possibility.
 
 ---
 
 # Introduction
-Under each threat is a description of the threat, the safety features designed to protect against the threat, and any past examples of attacks executing the threat. Bitcoin can be attacked directly by making the software behave in a way that is ineffective as cash or by attacking the humans that are needed to support the software.
+Under each threat is a description of the threat, 
+the safety features designed to protect against the threat, 
+and any past examples of attacks executing the threat. 
+
+Bitcoin can be attacked directly 
+by making the software behave in a way that is ineffective as cash 
+or by attacking the humans that are needed to support the software.
 
 Threats are categorized as one of the following:
 
 * **Prevent Adoption** - These threats have a reasonable chance of preventing Bitcoin from being adopted as cash.
 * **Significantly Slow Adoption** - These threats have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
 * **No Impact on Adoption** - These threats do not have a reasonable chance of significantly slowing the adoption of Bitcoin as cash.
-
-Currently there are no threats that have been identified that could prevent or significantly slow adoption of Bitcoin as cash. However, new threats could be discovered or existing threats may prove to be more impactful. Given the impact Bitcoin is likely to have, and the frequency and intensity of past attacks, this remains a real possibility.
 
 ---
 
