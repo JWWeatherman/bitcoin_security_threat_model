@@ -29,6 +29,9 @@ Threats are categorized as one of the following:
 Software threats are threats that take advantage of security flaws within the software to prevent Bitcoin from becoming cash.
 
 ---
+# Heading on a single page - no other content.
+
+---
 
 ## Creating a transaction
 Owners of Bitcoin can send their Bitcoin to another user 
