@@ -29,7 +29,7 @@ Threats are categorized as one of the following:
 Software threats are threats that take advantage of security flaws within the software to prevent Bitcoin from becoming cash.
 
 ---
-# Heading on a single page - no other content.
+#  Page intentionally left blank.
 
 ---
 
@@ -52,9 +52,15 @@ This greatly reduces the incentive for a attacker
 because in most centralized systems such as banks, credit reporting agencies and brokerages 
 a successful attack could result in access to the funds of thousands of users.
 
-* As long as thefts of private keys is not systemic it will not prevent the adoption of Bitcoin as cash. This is especially true as long as theft of private keys remains more difficult than the theft government money.
+* As long as thefts of private keys is not systemic 
+it will not prevent the adoption of Bitcoin as cash. 
+This is especially true as long as theft of private keys 
+remains more difficult than the theft government money.
 
-* Hardware wallets are gaining in popularity and they make theft of private keys nearly impossible without physical access to the device and password or pin number. This is a level of security that is far higher than is common in banking.
+* Hardware wallets are gaining in popularity 
+and they make theft of private keys nearly impossible 
+without physical access to the device and password or pin number. 
+This is a level of security that is far higher than is common in banking.
 
 **Past Attacks**
 * Bitcoin owner has private keys stolen in 2011 when keeping private keys safe was much harder,
@@ -67,35 +73,49 @@ https://www.theverge.com/2013/12/2/5167670/sheep-marketplace-bitcoin-heist-nets-
 * Although users need to be careful to keep their private keys safe, Bitcoin remains the most secure digital asset.
 
 ### An attacker could use a quantum computer to guess everyone's private keys.
-If an attacker could gain access to everyone's private keys he could steal every bitcoin.
+If an attacker could gain access to everyone's private keys 
+he could steal every bitcoin.
 
 **Safety Features**
-* The private key is so large that it would take more energy than is produced by the sun in its entire lifetime to power a computer capable of guessing it.
+* The private key is so large that it would take more energy 
+than is produced by the sun in its entire lifetime 
+to power a computer capable of guessing it.
 
 **Past Attacks**
 * There have been no known attempts to perform this attack.
 
 **No Impact on Adoption**
-* This attack is probably impossible. It is very unlikely that quantum computing or any other field of scientific research will result in such a drastic rewriting of our understanding of the basic laws of physics that guessing private keys would become possible.
+* This attack is probably impossible. 
+It is very unlikely that quantum computing 
+or any other field of scientific research 
+will result in such a drastic rewriting of our understanding 
+of the basic laws of physics that guessing private keys would become possible.
 
 ## Broadcasting a transaction to the network
 After a transaction is created it is relayed over the Bitcoin network.
 
 ### An attacker could broadcast a fake transaction to the network in order to steal bitcoins.
-If an attacker could convince the network that a transaction was legitimate he could transfer bitcoins from a victims balance to his own account.
+If an attacker could convince the network 
+that a transaction was legitimate 
+he could transfer bitcoins from a victims balance to his own account.
 
 **Safety Features**
 
-* The Bitcoin network will reject any transactions that are not digitally signed by the private keys of the owner of the bitcoins.
-
-* If a flaw in the digital signature mechanism is discovered the Bitcoin network could consider any transactions after the flaw was discovered to be invalid. This would be far from ideal as some legitimate transactions could be ignored, but this possibility reduces the incentives for attackers to attempt this attack.
-* Digital signatures are a fundamental building block of computer security and have proven to be effective and secure in many applications including Bitcoin.
+* The Bitcoin network will reject any transactions 
+that are not digitally signed by the private keys of the owner of the bitcoins.
+* If a flaw in the digital signature mechanism is discovered 
+the Bitcoin network could consider any transactions after the flaw was discovered to be invalid. 
+This would be far from ideal as some legitimate transactions could be ignored, 
+but this possibility reduces the incentives for attackers to attempt this attack.
+* Digital signatures are a fundamental building block of computer security 
+and have proven to be effective and secure in many applications including Bitcoin.
 
 **Past Attacks**
 * There have been no known attempts to perform this attack.
 
 **No Impact on Adoption**
-* It is unlikely that a flaw will be discovered that allows an attacker to forge a digital signature.
+* It is unlikely that a flaw will be discovered 
+that allows an attacker to forge a digital signature.
 
 ### An attacker could broadcast a large number of transactions that pay himself in order to clog the network.
 Because anyone can broadcast a transaction on the Bitcoin network it is possible for an attacker to broadcast a large number of transactions that transfer bitcoins to themselves. The Bitcoin network has no way to distinguish between legitimate transactions and transactions created with the intention of clogging the network. If the network is unable to process legitimate transactions Bitcoin would not be suitable as cash.
