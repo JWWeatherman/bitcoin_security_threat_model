@@ -309,12 +309,6 @@ he could "short" bitcoin
 and thereby profit from the decreased
 market value of bitcoin.
 
-**Past Attacks**
-* Drive Chains contained a security flaw that would allow 51% of miners to steal all funds.
-https://web.archive.org/web/20170928073638/http://www.drivechain.info
-* RSK planned to introduce a security flaw that would allow 51% of miners to steal all funds.
-https://web.archive.org/web/20180109005847/https://www.rsk.co/
-
 **Safety Features**
 An insecure layer two
 network must contain a security flaw.
@@ -345,6 +339,13 @@ they will be further demotivated
 to implement an insecure layer two solution 
 because the amount of funds that will be available
 to steal will not be significant.
+
+**Past Attacks**
+* Drive Chains contained a security flaw that would allow 51% of miners to steal all funds.
+https://web.archive.org/web/20170928073638/http://www.drivechain.info
+* RSK planned to introduce a security flaw that would allow 51% of miners to steal all funds.
+https://web.archive.org/web/20180109005847/https://www.rsk.co/
+
 
 ## Observing confirmed transactions
 In order for a transaction to be completed the receiver must be confident the transaction has been irreversibly confirmed by the Bitcoin network. this is performed by Bitcoin "node" software. This software maintains a copy of the longest set of transactions presented to it that are valid. The node software considers a transaction valid if it is structured correctly, digitally signed by the bitcoin owner, and does not attempt to transfer more bitcoin than is available to the sender. Some Bitcoin wallets do not contain the node software, but instead connect to a remote node to confirm that a transaction is completed. This is called an SPV (Simple Payment Verification) wallet.
