@@ -5,30 +5,17 @@
 ---
 
 # Motivation
-The Bitcoin threat model is intended to help developers, 
-investors and users better understand the security of Bitcoin. 
-Threats are assumed to be any activity designed to prevent Bitcoin 
-from accomplishing its mission to become cash (including a unit of account). 
+The Bitcoin threat model is intended to help developers, investors and users better understand the security of Bitcoin. Threats are assumed to be any activity designed to prevent Bitcoin from accomplishing its mission to become cash (including a unit of account). 
 
 # Conclusion
-Currently there are no threats that have been identified 
-that could prevent or significantly slow adoption of Bitcoin as cash. 
-However, new threats could be discovered 
-or existing threats may prove to be more impactful. 
-Given the impact Bitcoin is likely to have, 
-and the frequency and intensity of past attacks, 
-this remains a real possibility.
+Currently there are no threats that have been identified that could prevent or significantly slow adoption of Bitcoin as cash. However, new threats could be discovered or existing threats may prove to be more impactful. Given the impact Bitcoin is likely to have, and the frequency and intensity of past attacks, this remains a real possibility.
 
 ---
 
 # Introduction
-Under each threat is a description of the threat, 
-the safety features designed to protect against the threat, 
-and any past examples of attacks executing the threat. 
+Under each threat is a description of the threat, the safety features designed to protect against the threat, and any past examples of attacks executing the threat. 
 
-Bitcoin can be attacked directly 
-by making the software behave in a way that is ineffective as cash 
-or by attacking the humans that are needed to support the software.
+Bitcoin can be attacked directly by making the software behave in a way that is ineffective as cash or by attacking the humans that are needed to support the software.
 
 Threats are categorized as one of the following:
 
@@ -288,57 +275,22 @@ https://reviews.bitcoinabc.org/rABCb7d5bda29c07cd80c900e3ddd6a9a37a2b23f347
 https://www.reddit.com/r/bitcoinxt/comments/43lty6/current_bitcoin_xt_contains_a_network_splitting/
 
 ### An attacker could create an insecure second layer network on top of Bitcoin.
-If an attacker is able to create 
-an insecure second layer network 
-on top of Bitcoin he could
-steal all bitcoin moved into the
-second layer network.
+If an attacker is able to create an insecure second layer network on top of Bitcoin he could steal all bitcoin moved into the second layer network.
 
-Historically large thefts of bitcoin,
-even when unrelated to security flaws
-in the bitcoin network itself,
-have resulted in signifiant decreases
-to the bitcoin price.
+Historically large thefts of bitcoin,even when unrelated to security flawsin the bitcoin network itself,have resulted in signifiant decreases to the bitcoin price.
 
-This would allow an attacker to profit
-in at least two ways.
-First, he would gain the bitcoin stored
-in the insecure layer two network,
-and second,
-he could "short" bitcoin
-and thereby profit from the decreased
-market value of bitcoin.
+This would allow an attacker to profitin at least two ways.First, he would gain the bitcoin storedin the insecure layer two network, and second, he could "short" bitcoinand thereby profit from the decreased market value of bitcoin.
 
 **Safety Features**
-An insecure layer two
-network must contain a security flaw.
-This allows honest participants 
-to make it clear that they intend 
-to take advantage of the design 
-to drain the funds.
+An insecure layer two network must contain a security flaw. This allows honest participants to make it clear that they intend to take advantage of the design to drain the funds.
 
-By being public about their intention,
-and their progress towards obtaining the funds,
-the honest actors will likely aquire more 
-support, for example hash power,
-than the attackers. 
+By being public about their intention, and their progress towards obtaining the funds, the honest actors will likely aquire more support, for example hash power,than the attackers. 
 
-This will have a few helpful effects.
-First, the attackers will lose significant motivation
-to develop the insecure layer two solution
-because it is unlikely that they will be able
-to drain the funds before the honest actors.
+This will have a few helpful effects. First, the attackers will lose significant motivation to develop the insecure layer two solution because it is unlikely that they will be able to drain the funds before the honest actors.
 
-Second, knowledge of the ongoing project
-to drain the funds from the layer two network
-would discourage users from moving their funds
-into the insecure layer two network.
+Second, knowledge of the ongoing project to drain the funds from the layer two network would discourage users from moving their funds into the insecure layer two network.
 
-Third, if the attackers are aware of this
-they will be further demotivated 
-to implement an insecure layer two solution 
-because the amount of funds that will be available
-to steal will not be significant.
+Third, if the attackers are aware of this they will be further demotivated  to implement an insecure layer two solution  because the amount of funds that will be available to steal will not be significant.
 
 **Past Attacks**
 * Drive Chains contained a security flaw that would allow 51% of miners to steal all funds.
