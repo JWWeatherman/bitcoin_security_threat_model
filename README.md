@@ -41,14 +41,26 @@ Threats are categorized as one of the following:
 # Software Threats
 Software threats are threats that take advantage of security flaws within the software to prevent Bitcoin from becoming cash.
 
+---
+
 ## Creating a transaction
-Owners of Bitcoin can send their Bitcoin to another user by creating a digitally signed transaction and broadcasting it to the Bitcoin network. The piece of software that creates transactions is called a "wallet." For a transaction to be accepted by the network it must be digitally signed using the owners private key. Keeping the private keys secret is also handled by the Bitcoin wallet software.
+Owners of Bitcoin can send their Bitcoin to another user 
+by creating a digitally signed transaction and broadcasting it to the Bitcoin network. 
+The piece of software that creates transactions is called a "wallet." 
+For a transaction to be accepted by the network it must be 
+digitally signed using the owners private key. 
+Keeping the private keys secret is also handled by the Bitcoin wallet software.
 
 ### An attacker could steal a users private keys to steal their bitcoin.
-If an attacker can gain access to a users private key he can send the associated bitcoin to himself.
+If an attacker can gain access to a users private key 
+he can send the associated bitcoin to himself.
 
 **Safety Features**
-* Because each Bitcoin user maintains his own private keys an attacker can only steal from one person at a time. This greatly reduces the incentive for a attacker because in most centralized systems such as banks, credit reporting agencies and brokerages a successful attack could result in access to the funds of thousands of users.
+* Because each Bitcoin user maintains his own private keys 
+an attacker can only steal from one person at a time. 
+This greatly reduces the incentive for a attacker 
+because in most centralized systems such as banks, credit reporting agencies and brokerages 
+a successful attack could result in access to the funds of thousands of users.
 
 * As long as thefts of private keys is not systemic it will not prevent the adoption of Bitcoin as cash. This is especially true as long as theft of private keys remains more difficult than the theft government money.
 
