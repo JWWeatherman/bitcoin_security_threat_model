@@ -11,6 +11,55 @@ The Bitcoin threat model is intended to help developers, investors and users bet
 Currently there are no threats that have been identified that could prevent or significantly slow adoption of Bitcoin as cash. However, new threats could be discovered or existing threats may prove to be more impactful. Given the impact Bitcoin is likely to have, and the frequency and intensity of past attacks, this remains a real possibility.
 
 ---
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Introduction](#introduction)
+- [Software Threats](#software-threats)
+  - [Creating a transaction](#creating-a-transaction)
+    - [An attacker could steal a users private keys to steal their bitcoin.](#an-attacker-could-steal-a-users-private-keys-to-steal-their-bitcoin)
+    - [An attacker could use a quantum computer to guess everyone's private keys.](#an-attacker-could-use-a-quantum-computer-to-guess-everyones-private-keys)
+  - [Broadcasting a transaction to the network](#broadcasting-a-transaction-to-the-network)
+    - [An attacker could broadcast a fake transaction to the network in order to steal bitcoins.](#an-attacker-could-broadcast-a-fake-transaction-to-the-network-in-order-to-steal-bitcoins)
+    - [An attacker could broadcast a large number of transactions that pay himself in order to clog the network.](#an-attacker-could-broadcast-a-large-number-of-transactions-that-pay-himself-in-order-to-clog-the-network)
+    - [An attacker could identify the participants in transactions through network traffic analysis](#an-attacker-could-identify-the-participants-in-transactions-through-network-traffic-analysis)
+    - [An attacker could identify the participants in a transaction through public transaction data.](#an-attacker-could-identify-the-participants-in-a-transaction-through-public-transaction-data)
+  - [Confirming Bitcoin transactions](#confirming-bitcoin-transactions)
+    - [An attacker could run mining software in order to prevent transactions from being confirmed.](#an-attacker-could-run-mining-software-in-order-to-prevent-transactions-from-being-confirmed)
+    - [An attacker could run mining software in order to double spend bitcoins.](#an-attacker-could-run-mining-software-in-order-to-double-spend-bitcoins)
+    - [An attacker could exploit a flaw in the proof of work algorithm to fake the performance of work.](#an-attacker-could-exploit-a-flaw-in-the-proof-of-work-algorithm-to-fake-the-performance-of-work)
+    - [An attacker could steal all of the hardware used to confirm Bitcoin transactions.](#an-attacker-could-steal-all-of-the-hardware-used-to-confirm-bitcoin-transactions)
+    - [An attacker could claim to be Satoshi and remove a safety feature from the next version of Bitcoin.](#an-attacker-could-claim-to-be-satoshi-and-remove-a-safety-feature-from-the-next-version-of-bitcoin)
+    - [An attacker could remove a safety feature from the next version of Bitcoin to enable a new capability.](#an-attacker-could-remove-a-safety-feature-from-the-next-version-of-bitcoin-to-enable-a-new-capability)
+    - [An attacker could create a copy of Bitcoin (aka fork) that is missing a safety feature and trick people into using it.](#an-attacker-could-create-a-copy-of-bitcoin-aka-fork-that-is-missing-a-safety-feature-and-trick-people-into-using-it)
+    - [An attacker could create a variety of implementations of Bitcoin in order to add a security flaw.](#an-attacker-could-create-a-variety-of-implementations-of-bitcoin-in-order-to-add-a-security-flaw)
+    - [An attacker could create an insecure second layer network on top of Bitcoin.](#an-attacker-could-create-an-insecure-second-layer-network-on-top-of-bitcoin)
+  - [Observing confirmed transactions](#observing-confirmed-transactions)
+    - [An attacker could create a less secure digital asset and trick people into buying it.](#an-attacker-could-create-a-less-secure-digital-asset-and-trick-people-into-buying-it)
+    - [An attacker could create a more secure digital asset so that investors will abandon Bitcoin.](#an-attacker-could-create-a-more-secure-digital-asset-so-that-investors-will-abandon-bitcoin)
+    - [An attacker could mine invalid Bitcoin blocks to remove a safety feature from Bitcoin](#an-attacker-could-mine-invalid-bitcoin-blocks-to-remove-a-safety-feature-from-bitcoin)
+    - [An attacker could deceive a Bitcoin node into thinking a transaction did or did not get confirmed.](#an-attacker-could-deceive-a-bitcoin-node-into-thinking-a-transaction-did-or-did-not-get-confirmed)
+    - [An attacker could deceive a Bitcoin partial node (SPV client) into thinking a transaction did or did not get confirmed by the Bitcoin network.](#an-attacker-could-deceive-a-bitcoin-partial-node-spv-client-into-thinking-a-transaction-did-or-did-not-get-confirmed-by-the-bitcoin-network)
+    - [An attacker could introduce security flaws into Bitcoin mining hardware in order to break the security of Bitcoin.](#an-attacker-could-introduce-security-flaws-into-bitcoin-mining-hardware-in-order-to-break-the-security-of-bitcoin)
+- [Human Threats](#human-threats)
+  - [Network Operators](#network-operators)
+    - [An attacker could threaten to harm an individual or group mining bitcoin.](#an-attacker-could-threaten-to-harm-an-individual-or-group-mining-bitcoin)
+    - [An attacker could threaten to harm node individual or group running a Bitcoin node](#an-attacker-could-threaten-to-harm-node-individual-or-group-running-a-bitcoin-node)
+  - [Investors](#investors)
+    - [An attacker could extort the private keys from an investor.](#an-attacker-could-extort-the-private-keys-from-an-investor)
+    - [An attacker could deceive investors regarding the utility of Bitcoin.](#an-attacker-could-deceive-investors-regarding-the-utility-of-bitcoin)
+    - [An attacker could threaten to harm Bitcoin investors if they don't sell or hand over their bitcoin.](#an-attacker-could-threaten-to-harm-bitcoin-investors-if-they-dont-sell-or-hand-over-their-bitcoin)
+    - [An attacker could threaten to harm anyone that attempts to buy or sell bitcoin.](#an-attacker-could-threaten-to-harm-anyone-that-attempts-to-buy-or-sell-bitcoin)
+  - [Bitcoin Merchants](#bitcoin-merchants)
+    - [An attacker could threaten to harm anyone accepting bitcoin as payment.](#an-attacker-could-threaten-to-harm-anyone-accepting-bitcoin-as-payment)
+  - [Bitcoin Developers](#bitcoin-developers)
+    - [An attacker could threaten to harm anyone contributing to Bitcoin software.](#an-attacker-could-threaten-to-harm-anyone-contributing-to-bitcoin-software)
+    - [An attacker could bribe or extort a Bitcoin developer into introducing a security flaw into Bitcoin.](#an-attacker-could-bribe-or-extort-a-bitcoin-developer-into-introducing-a-security-flaw-into-bitcoin)
+  - [Bitcoin Hardware Manufacturers](#bitcoin-hardware-manufacturers)
+    - [An attacker could threaten to harm Bitcoin mining hardware manufacturers if they sell to the public.](#an-attacker-could-threaten-to-harm-bitcoin-mining-hardware-manufacturers-if-they-sell-to-the-public)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Introduction
 Under each threat is a description of the threat, the safety features designed to protect against the threat, and any past examples of attacks executing the threat. 
