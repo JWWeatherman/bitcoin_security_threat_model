@@ -330,7 +330,7 @@ https://web.archive.org/web/20180109005847/https://www.rsk.co/
 
 
 ## Observing confirmed transactions
-In order for a transaction to be completed the receiver must be confident the transaction has been irreversibly confirmed by the Bitcoin network. this is performed by Bitcoin "node" software. This software maintains a copy of the longest set of transactions presented to it that are valid. The node software considers a transaction valid if it is structured correctly, digitally signed by the bitcoin owner, and does not attempt to transfer more bitcoin than is available to the sender. Some Bitcoin wallets do not contain the node software, but instead connect to a remote node to confirm that a transaction is completed. This is called an SPV (Simple Payment Verification) wallet.
+In order for a transaction to be completed the receiver must be confident the transaction has been irreversibly confirmed by the Bitcoin network. this is performed by Bitcoin "node" software. This software maintains a copy of the longest set of transactions presented to it that are valid. The node software considers a transaction valid if it is structured correctly, digitally signed by the bitcoin owner, and does not attempt to transfer more bitcoin than is available to the sender. 
 
 ### An attacker could create a less secure digital asset and trick people into buying it.
 If an attacker can trick investors into using his digital asset as cash it could prevent Bitcoin from becoming cash (unit of account).
