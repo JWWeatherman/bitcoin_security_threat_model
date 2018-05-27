@@ -448,9 +448,9 @@ Because Bitcoin nodes accept information from any other computer running the Bit
 * In many ways this is not an attack on Bitcoin directly, but an attack on the Internet itself. Building a secure Internet is becoming more and more important and there are several efforts underway to accomplish this goal. As Bitcoin and other digital assets become more important the motivation to create a secure Internet will grow.
 * In order to make this attack more cost effective more nodes would need to be deceived at the same time. However, the more nodes are deceived into trusting an invalid chain of transactions the more likely it becomes that the victims become aware of the attack and stop trusting their node software.
 
-### An attacker could deceive a Bitcoin partial node (SPV client) into thinking a transaction did or did not get confirmed by the Bitcoin network.
+### An attacker could deceive a bitcoin wallet into thinking a transaction did or did not get confirmed by the Bitcoin network.
 
-In some cases, such as operating on a mobile phone, the Bitcoin client software can't perform the full validation of the Bitcoin transaction history. To the degree that the client doesn't perform complete validation safety features are discarded.
+In some cases, such as operating on a mobile phone, the Bitcoin client software doesn't perform the full validation of the Bitcoin transaction history. To the degree that the client doesn't perform complete validation safety features are discarded.
 
 * Bitcoin client software that doesn't perform complete validation of the Bitcoin transaction history often connects to another computer that it trusts to perform this full validation on its behalf. While this is not ideal, because an attacker could pretend to be this trusted computer, it does provide greater security than outright skipping validation.
 * The Bitcoin community encourages users to run a full node, especially when acting as a merchant, or accepting large amounts of Bitcoin from untrusted parties.
