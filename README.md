@@ -94,14 +94,14 @@ he can send the associated bitcoin to himself.
 **Safety Features**
 * Because each Bitcoin user maintains his own private keys 
 an attacker can only steal from one person at a time. 
-This greatly reduces the incentive for a attacker 
+This greatly reduces the incentive for an attacker 
 because in most centralized systems such as banks, credit reporting agencies and brokerages 
 a successful attack could result in access to the funds of thousands of users.
 
-* As long as thefts of private keys is not systemic 
+* As long as theft of private keys is not systemic 
 it will not prevent the adoption of Bitcoin as cash. 
 This is especially true as long as theft of private keys 
-remains more difficult than the theft government money.
+remains more difficult than the theft of government money.
 
 * Hardware wallets are gaining in popularity 
 and they make theft of private keys nearly impossible 
