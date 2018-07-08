@@ -180,7 +180,7 @@ https://steemit.com/cryptocurrency/@superfreek/btc-spam-attack-200-000-unconfirm
 * Bitcoin spam attack is used as support for attack 2.5.3.,
 https://bitcoinmagazine.com/articles/curious-case-bitcoins-moby-dick-spam-and-miners-confirmed-it/
 
-**No Impact no Adoption**
+**No Impact on Adoption**
 * Although this attack has been performed regularly in recent months its only effect has been occasional transaction delays and higher fees. It has not significantly slowed adoption. This is partially due to the fact that Bitcoin is so early in its evolution to become money that it is still in the "store of value" stage and partially because investors are aware that new features are on the way that will make this attack impractical.
 
 ### An attacker could identify the participants in transactions through network traffic analysis
