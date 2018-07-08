@@ -360,7 +360,7 @@ If an attacker is able to create an insecure second layer network on top of Bitc
 
 Historically large thefts of bitcoin,even when unrelated to security flawsin the bitcoin network itself,have resulted in signifiant decreases to the bitcoin price.
 
-This would allow an attacker to profitin at least two ways.First, he would gain the bitcoin storedin the insecure layer two network, and second, he could "short" bitcoinand thereby profit from the decreased market value of bitcoin.
+This would allow an attacker to profitin at least two ways.First, he would gain the bitcoin stored in the insecure layer two network, and second, he could "short" bitcoin and thereby profit from the decreased market value of bitcoin.
 
 **Safety Features**
 An insecure layer two network must contain a security flaw. This allows honest participants to make it clear that they intend to take advantage of the design to drain the funds.
